@@ -1,0 +1,313 @@
+.text-logo {
+  color: var(--primary-white, #fff);
+  text-align: center;
+
+  /* Heading/H3 */
+  /* font-family: Inter; */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 30px */
+  letter-spacing: 0.2px;
+}
+.sub-text-logo {
+  color: var(--text-title-1, #2d3459);
+  text-align: center;
+  /* font-family: Inter; */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 22.4px */
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 7%;
+}
+
+.ant-carousel .slick-dots li {
+  position: relative;
+  display: inline-block;
+  flex: 0 1 auto;
+  box-sizing: content-box;
+  width: 24px;
+  height: 3px;
+  margin-inline: 4px;
+  padding: 0;
+  text-align: center;
+  text-indent: -999px;
+  vertical-align: top;
+  transition: all 0.3s;
+}
+
+.ant-carousel .slick-dots li button {
+  position: relative;
+  display: block;
+  width: 68%;
+  height: 15px;
+  padding: 0;
+  color: transparent;
+  font-size: 0;
+  background: #cccdf6;
+  border: 0;
+  border-radius: 1px;
+  outline: none;
+  cursor: pointer;
+  opacity: 0.3;
+  transition: all 0.3s;
+  border-radius: 100%;
+}
+.ant-carousel .slick-dots li.slick-active button {
+  background: #6266ef;
+  opacity: 1;
+}
+
+.title-box-login {
+  color: var(--text-title-2, #394b76);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  /* font-family: Roboto; */
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 112.5% */
+  text-transform: uppercase;
+  margin: 5% 0%;
+}
+
+.checkbox-sign-up {
+  color: var(--text-title-4, #94a3b8);
+
+  /* p */
+  /* font-family: Roboto; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkbox-sign-up .ant-checkbox .ant-checkbox-inner {
+  box-sizing: border-box;
+  position: relative;
+  top: 0;
+  inset-inline-start: 0;
+  display: block;
+  width: 24px;
+  height: 24px;
+  direction: ltr;
+  /* background-color: #ffffff; */
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  border-collapse: separate;
+  transition: all 0.3s;
+
+  &::after {
+    width: 8px;
+    height: 12px;
+  }
+}
+
+/* .checkbox-sign-up .ant-checkbox-checked .ant-checkbox-inner {
+  background: var(--primary-5, #083258);
+  border-color: #1677ff;
+}
+
+.checkbox-sign-up .ant-checkbox-checked:hover .ant-checkbox-inner {
+  background: var(--primary-5, #083258) !important;
+  border-color: #1677ff;
+} */
+/* .ant-checkbox .ant-checkbox-inner :focus {
+  background-color: #083258;
+} */
+
+.forget-password {
+  color: var(--text-color-4, #94a3b8);
+  text-align: right;
+  /* font-family: Inter; */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 22.4px */
+  text-decoration-line: underline;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.requirement {
+  color: #64748b;
+  text-align: center;
+  /* font-family: Inter; */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 19.2px */
+}
+.text-highlight {
+  color: var(--primary-5, #083258);
+  /* font-family: Inter; */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+}
+
+.custom-center {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.title-homepage {
+  color: var(--primary-3, #6266ef);
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 30px */
+  letter-spacing: 0.2px;
+}
+
+.btn-login {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1.5px solid var(--primary-1, #058df4);
+  color: var(--primary-1, #058df4);
+  /* font-family: Roboto; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  width: 100%;
+  border-radius: 8px;
+  height: 48px;
+}
+
+.text-or {
+  color: var(--text-title-4, #94a3b8);
+  text-align: center;
+  /* font-family: Roboto; */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+
+.btn-for-guest {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1.5px solid var(--Color-line, #058df4);
+  background: var(
+    --Color-line,
+    linear-gradient(180deg, #058df4 0%, #6266ef 100%)
+  );
+  box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.25);
+  color: var(--White, #fff);
+  /* font-family: Roboto; */
+  font-size: 16px;
+  font-style: normal;
+  width: 100%;
+  height: 48px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  text-transform: capitalize;
+}
+
+.ant-btn-default.btn-for-guest:not(:disabled):not(.ant-btn-disabled):hover {
+  color: #fff;
+  border-color: #4096ff;
+}
+
+.input-sign-up.ant-input-affix-wrapper {
+  position: relative;
+  display: inline-flex;
+  width: 100%;
+  min-width: 0;
+  padding: 4px 16px;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 18px;
+  line-height: 1.5714285714285714;
+  background-image: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-radius: 8px;
+  transition: all 0.2s;
+  height: 50px;
+  /* border: 1px solid var(--text-title-4, #7e8ca0); */
+  /* background: var(--text-title-7, rgba(118, 128, 157, 0.08)); */
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.04);
+}
+
+.text-forgetPW {
+  text-align: left;
+  color: #505050;
+  /* font-family: Roboto; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.error-email {
+  color: var(--Red, #e55353);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: 160%; /* 19.2px */
+  text-align: left;
+  margin: 0;
+}
+.custom-notification {
+  margin-top: 10%;
+}
+
+.custom-btn-confirm {
+  background-color: #058df4;
+}
+
+div button:where(.swal2-styled):focus {
+  outline: none;
+  box-shadow: unset !important;
+}
+
+.text-error-login {
+  color: var(--Red, #e55353);
+  text-align: center;
+  /* font-family: Roboto; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 22.4px */
+}
+.text-success-login {
+  color: var(--Red, #2EB85C);
+  text-align: center;
+  /* font-family: Roboto; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 22.4px */
+}
+
+.ant-form-item .ant-form-item-label >label {
+  font-weight: 700 !important;
+  color: #394b76 !important;
+}

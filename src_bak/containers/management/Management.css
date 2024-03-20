@@ -1,0 +1,215 @@
+.text-result {
+  text-align: center;
+  /* body/medium/medium */
+  /* font-family: Inter; */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 22.4px */
+  letter-spacing: 0.2px;
+  padding: 4px 16px;
+  border-radius: 8px;
+  width: auto;
+  margin: 0px;
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+}
+.ant-btn.btn-search {
+  padding: 6px 10px !important;
+}
+
+.modal-detail.ant-modal .ant-modal-content {
+  position: relative;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+    0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  pointer-events: auto;
+  padding: 16px 40px 1px;
+}
+
+.ant-collapse
+  > .ant-collapse-item
+  > .ant-collapse-header
+  .ant-collapse-header-text
+  > span {
+  margin-inline-end: auto;
+  color: black;
+  /* font-family: Roboto; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  align-items: center;
+  display: flex;
+}
+
+.btn-reset {
+  height: 26px;
+  padding: 0px 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #516583;
+  border-radius: 10px;
+}
+
+.ant-collapse > .ant-collapse-item {
+  border: 1px solid var(--text-title-6, rgba(118, 128, 157, 0.15));
+}
+
+.ant-collapse > .ant-collapse-item {
+  /* border-bottom: 1px solid #d9d9d9; */
+  margin-top: 6px;
+}
+
+.modal-detail.ant-modal .ant-modal-content {
+  position: relative;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+    0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  pointer-events: auto;
+  padding: 16px 40px 1px;
+}
+
+.transform-component-module_wrapper__SPB86 {
+  width: auto !important;
+}
+
+.btn-pagination .ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+  color: #fff;
+  background-color: unset;
+}
+
+.btn-pagination {
+  border: unset;
+}
+
+.ant-btn-default.btn-pagination {
+  background-color: #cde8fd;
+  border-color: #d9d9d9;
+  color: rgba(0, 0, 0, 0.88);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+}
+
+.ant-btn-default.btn-pagination:disabled,
+.ant-btn-default.btn-pagination.ant-btn-disabled {
+  cursor: not-allowed;
+  border-color: #d9d9d9;
+  color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.04);
+  box-shadow: none;
+}
+
+.ant-btn.ant-btn-round.ant-btn-sm.btn-pagination {
+  border-radius: 24px;
+  padding-inline-start: 7px;
+  padding-inline-end: 7px;
+}
+
+.ant-table-thead .ant-table-cell {
+  text-align: center !important;
+}
+
+.ant-table-tbody .ant-table-cell:nth-child(1),
+.ant-table-tbody .ant-table-cell:nth-child(7) {
+  text-align: center !important;
+}
+
+div .swal2-html-container {
+  margin: 0px;
+}
+
+.react-resizable {
+  position: relative;
+  background-clip: padding-box;
+}
+
+.react-resizable-handle {
+  position: absolute;
+  right: -5px;
+  bottom: 0;
+  z-index: 1;
+  width: 10px;
+  height: 100%;
+  cursor: col-resize;
+}
+
+thead tr th,
+.dragHandler {
+  user-select: none;
+}
+
+.react-resizable {
+  position: relative;
+  background-clip: padding-box;
+  background: red;
+}
+
+.react-resizable-handle {
+  position: absolute;
+  width: 10px;
+  height: 100%;
+  bottom: 0;
+  right: -5px;
+  cursor: col-resize;
+  z-index: 1;
+}
+
+thead tr th,
+.dragHandler {
+  user-select: none;
+}
+.dragHandler:hover {
+  cursor: move;
+  background-color: #ccc;
+}
+
+.ant-table-wrapper .ant-table.ant-table-small .ant-table-title,
+.ant-table-wrapper .ant-table.ant-table-small .ant-table-footer,
+.ant-table-wrapper .ant-table.ant-table-small .ant-table-cell,
+.ant-table-wrapper .ant-table.ant-table-small .ant-table-thead > tr > th,
+.ant-table-wrapper .ant-table.ant-table-small .ant-table-tbody > tr > th,
+.ant-table-wrapper .ant-table.ant-table-small .ant-table-tbody > tr > td,
+.ant-table-wrapper .ant-table.ant-table-small tfoot > tr > th,
+.ant-table-wrapper .ant-table.ant-table-small tfoot > tr > td {
+  padding: 6px 4px;
+}
+
+.ant-table-wrapper .ant-table.ant-table-small {
+  font-size: 12px;
+}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  padding: 12px 16px;
+  color: rgba(0, 0, 0, 0.88);
+  line-height: 1.5714285714285714;
+  cursor: pointer;
+  transition: all 0.3s, visibility 0s;
+  background: #e6f9ff;
+}
+
+.ant-collapse-small
+  > .ant-collapse-item
+  > .ant-collapse-content
+  > .ant-collapse-content-box {
+  padding: 12px;
+  background: #f2ffe647;
+}
+
+.ant-select .ant-select-arrow {
+  display: none;
+}
+
+.ant-select-single.ant-select-show-arrow .ant-select-selection-item, .ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+  padding-inline-end: 0px;
+}

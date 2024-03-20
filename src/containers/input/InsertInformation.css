@@ -1,0 +1,47 @@
+.ant-form-item.insert-infor {
+  margin-bottom: 0px;
+}
+
+.ant-table-thead .ant-table-cell {
+  background-color: #231b9a0d !important;
+}
+
+.load-image {
+  animation: loading-image 1s linear infinite;
+}
+
+.size-image .react-transform-wrapper {
+  width: auto;
+}
+
+@keyframes loading-image {
+  from {
+    /* pushes the sun down past the viewport */
+    transform: rotate(360deg);
+  }
+  to {
+    /* returns the sun to its default position */
+    transform: rotate(0deg);
+  }
+}
+
+.thumbnail-class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+
+  & img {
+    width: 75px;
+    height: 75px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 0px 10px;
+  }
+}
+
+.splide__slide img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+}
