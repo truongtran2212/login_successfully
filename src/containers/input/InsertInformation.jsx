@@ -111,23 +111,22 @@ const InsertInformation = ({ open, setIsOpenDetail }) => {
         },
     ];
 
-    const [previousName, setPreviousName] = useState("")
+    const [inputValue, setInputValue] = useState(''); // Sử dụng state để lưu trữ giá trị của ô input
 
-    const handleKeyPress = (event, index, dataIndex) => {
+
+    const handleKeyPress = (event, dataIndex, index) => {
+        console.log(123)
+        var test = document.getElementById(dataIndex + index)
         if (event.ctrlKey && event.key === '1') {
-            document.getElementById(dataIndex + index).value = '☑'
-            event.preventDefault();
+            // test.value = '☑'
+            setInputValue('123')
+            // event.preventDefault(); // Ngăn chặn hành vi mặc định của trình duyệt (ví dụ: tìm kiếm trang)
         }
+        return () => {
+            document.removeEventListener("keydown", handleKeyPress);
+        };
     };
 
-
-    const handleBlur = (dataIndex, index) => {
-        console.log(dataIndex)
-        console.log(index)
-        let html = document.getElementById(dataIndex + index).value;
-        document.getElementById(dataIndex + index).value = html
-        console.log(html)
-    }
 
     const formInsert = (index, text, dataIndex, record) => {
         return <Form.Item
@@ -137,7 +136,8 @@ const InsertInformation = ({ open, setIsOpenDetail }) => {
             key={dataIndex}
             className='insert-infor'
         >
-            <Input id={dataIndex + index} onBlur={() => handleBlur(dataIndex, index)} onKeyDown={(event) => handleKeyPress(event, index, dataIndex)}></Input>
+            <Input
+                value={inputValue} id={dataIndex + index} onKeyDown={(event) => handleKeyPress(event, dataIndex, index)}></Input>
         </Form.Item>
     }
 
